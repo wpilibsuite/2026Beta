@@ -8,7 +8,22 @@
 
 REV Hardware Client 2 (RHC2) is a separate application from REV Hardware Client (RHC) and can be installed on Windows, MacOS, and Linux.
 
-[Install the latest version here](https://beta.rhc2.revrobotics.com/download/download.html) 
+[Install the latest version here](https://beta.rhc2.revrobotics.com/download/download.html).
+
+If it is already installed, it should update automatically, or you can update it manually from the "About" tab.
+
+
+<details>
+<summary>Changelog</summary>
+
+
+### v0.2.1
+
+- Fixes AdvantageScope theming not syncing with rest of app
+- Fixes app not loading past splash screen on macOS
+- Fixes DFU updating not working on macOS
+
+</details>
 
 ## Updating firmware
 
