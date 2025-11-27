@@ -16,6 +16,28 @@ If it is already installed, it should update automatically, or you can update it
 <details>
 <summary>Changelog</summary>
 
+### 0.2.2
+
+- Fixes issue with DFU updating on Ubuntu
+- Fixes UI crash when opening a device with no available releases
+- Fixes rendering issues when resizing/moving the window
+- Fixes links opening in another chromium window
+- Fixes error when clicking support email
+- Fixes issue where SPARK MAX bulk updates would not continue past updating the bridge device
+- Fixes image and naming of roboRIO in device list
+- Fixes inability to undo reset safe parameters on a SPARK
+- Adds units to applicable parameters in SPARK configuration page
+- Improves speed of fetching all parameters from a SPARK
+- Improves download page
+- Improves about page
+- Ignores devices from other vendors in device list. This will be re-enabled in the future once they can be enumerated and displayed properly.
+
+#### Known Issues
+
+- No clear indication to the user that the application is loading devices when connected to a large CAN bus
+- Signals on SPARK summary page pop in and out if the corresponding status frame period is high enough
+- roboRIO pops in and out of the device list
+
 
 ### v0.2.1
 
