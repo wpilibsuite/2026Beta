@@ -7,7 +7,7 @@ Note that all updated documentation for 2026 changes, new features, etc. can be 
 
 ## Beta Software Directory
 
-* [NI Game Tools Beta 1](https://github.com/wpilibsuite/2026Beta/releases/tag/NI_GAME_TOOLS_BETA_1)
+* [NI Game Tools Beta 2](https://github.com/wpilibsuite/2026Beta/releases/tag/NI_GAME_TOOLS_BETA_2)
 * [WPILib Beta 1](https://github.com/wpilibsuite/allwpilib/releases/tag/v2026.1.1-beta-1)
 
 ### Vendor Libraries
