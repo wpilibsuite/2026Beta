@@ -12,7 +12,7 @@ Note that all updated documentation for 2026 changes, new features, etc. can be 
 
 ### Vendor Libraries
 
-- [REV Beta 1](REV.md)
+- [REV Beta 2](REV.md)
 - [CTRE Beta 1](CTRE.md)
 
 ### Other

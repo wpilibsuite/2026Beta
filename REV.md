@@ -1,4 +1,6 @@
-# REV 2026 Beta 1
+# REV 2026 Beta 2
+
+Beta 2 focuses on updates to RHC2, primarily introducing motor control capabilities on the Telemetry tab for tuning and prototyping. See the changelog for 0.3.0 below for more details.
 
 ## REVLib
 
@@ -12,9 +14,24 @@ REV Hardware Client 2 (RHC2) is a separate application from REV Hardware Client 
 
 If it is already installed, it should update automatically, or you can update it manually from the "About" tab.
 
-
 <details>
 <summary>Changelog</summary>
+
+### 0.3.0
+
+- Adds support for running SPARK on telemetry page
+- Adds support for running SPARK in control types other than duty cycle
+- Improves PDH channels card to resemble the physical layout of the channels
+- Improves SPARK Run UI to enhance PID tuning experience
+- Improves performance of SPARK UI
+- Improves device drawer UI
+  - Makes better use of white space
+  - Keeps header fixed at the top when content is scrollable
+- Improves scrolling experience in SPARK Configuration and Utilities pages
+- Fixes issue where the app locks up when trying to close on Mac and Linux
+- Fixes issue with telemetry signals between different devices being out of sync
+- Fixes issue where adding signals to AScope would sometimes not work
+- Fixes telemetry page resetting and losing all progress when switching tabs
 
 ### 0.2.2
 
@@ -37,7 +54,6 @@ If it is already installed, it should update automatically, or you can update it
 - No clear indication to the user that the application is loading devices when connected to a large CAN bus
 - Signals on SPARK summary page pop in and out if the corresponding status frame period is high enough
 - roboRIO pops in and out of the device list
-
 
 ### v0.2.1
 
