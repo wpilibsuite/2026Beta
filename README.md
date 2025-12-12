@@ -17,3 +17,6 @@ Note that all updated documentation for 2026 changes, new features, etc. can be 
 - [CTRE Beta 1](CTRE.md)
 
 ### Other
+
+* [PhotonVision](https://github.com/PhotonVision/photonvision/releases/tag/v2026.0.1-beta)
+
