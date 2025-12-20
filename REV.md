@@ -17,6 +17,27 @@ If it is already installed, it should update automatically, or you can update it
 <details>
 <summary>Changelog</summary>
 
+### 0.4.0
+
+- Adds ability to import and export telemetry layouts
+- Adds telemetry layout autosaving
+- Adds discrete buttons to choose which axis to add a signal to on telemetry page
+- Adds ability to choose a file for firmware updating
+- Adds badge to SPARK parameters that are not reset by Reset Safe Parameters
+- Improves dark mode colors
+- Updates loading icon to be cooler
+- Fixes version check sometimes failing on initial device connection
+- Fixes not being able to run a motor after reconnecting USB to a different device on the bus
+- Fixes Reset Safe Parameters confirmation dialog
+
+### 0.3.1
+
+- Adds support for stopping motor with spacebar
+- Adds indicator for loading connected devices
+- Improves handling of disconnected devices on telemetry page
+- Improves interaction with number input fields
+- Fixes crash that would sometimes occur when moving setpoint slider on telemetry run page
+
 ### 0.3.0
 
 - Adds support for running SPARK on telemetry page
