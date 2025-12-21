@@ -7,7 +7,7 @@ Note that all updated documentation for 2026 changes, new features, etc. can be 
 
 ## Beta Software Directory
 
-* [NI Game Tools Beta 1](https://github.com/wpilibsuite/2026Beta/releases/tag/NI_GAME_TOOLS_BETA_1)
+* [NI Game Tools Beta 3](https://github.com/wpilibsuite/2026Beta/releases/tag/NI_GAME_TOOLS_BETA_3)
 * [WPILib Beta 1](https://github.com/wpilibsuite/allwpilib/releases/tag/v2026.1.1-beta-1)
 * [RobotPy 2026.1.1b1](https://pypi.org/project/robotpy/2026.1.1b1/)
 
