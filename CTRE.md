@@ -3,7 +3,7 @@
 This is the 2026 beta 1 release of Phoenix software compatible with the 2026 FRC beta.
 
 > [!IMPORTANT]  
->  CANivore functionality on roboRIO 2026.1.0 requires manual installation of the CANivore driver. See [CANivore Driver Installation](#canivore-driver-installation). This will be resolved in the next NI release.
+>  Users must use the roboRIO image provided in [NI Beta 3](https://github.com/wpilibsuite/2026Beta/releases/tag/NI_GAME_TOOLS_BETA_3) for CANivore support. CANivore support is not functional in NI Beta 1.
 
 > [!IMPORTANT]  
 > 26.0.0-beta-1 requires 26.0.0 firmware
@@ -13,18 +13,6 @@ https://v6.docs.ctr-electronics.com/en/latest/docs/yearly-changes/yearly-changel
 
 For a list of all the changes, see the changelog:
 https://api.ctr-electronics.com/changelog
-
-## CANivore Driver Installation
-
-> [!IMPORTANT]  
->  CANivore functionality on roboRIO 2026.1.0 requires manual installation of the CANivore driver. The CANivore **stat** LED will blink orange until this is resolved. This will be resolved in the next NI release.
-
-1. Download the kernel driver [here](https://ctre.download/files/canivore-usb-kernel_1.16_armv7a.ipk).
-2. Transfer the kernel driver (see the WPILib documentation [here](https://docs.wpilib.org/en/stable/docs/software/roborio-info/roborio-ftp.html)).
-3. SSH as administrator.
-4. Verify current directory contains the kernel driver with `ls`
-5. Install the kernel driver with `opkg install canivore-usb-kernel_1.16_armv7a.ipk`
-6. Reboot the roboRIO (CANivore stat light should now be blinking GREEN).
 
 ## Phoenix Installation
 Users for all programming languages can install Phoenix by following the instructions available in our documentation:
